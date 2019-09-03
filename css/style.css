@@ -61,3 +61,10 @@ html{
 .last-p{
     margin-bottom: 50px;
 }
+/*Adding a rule for small screens like phones*/ 
+@media screen and (max-width: 500px) {
+.logo-image-text{
+    font-size: 30px;
+    font-weight: bold;
+    }
+}
